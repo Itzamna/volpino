@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension
+	version="2.5"
+	type="template"
+	method="upgrade" client="site">
+	<name>tz_restaurant</name>
+	<version>1.0</version>
+	<creationDate>December 2012</creationDate>
+	<author>Sunland .,JSC</author>
+	<authorEmail>info@templaza.com</authorEmail>
+	<authorUrl>http://www.TemPlaza.com</authorUrl>
+	<copyright>Copyright (C) 2011 Sunland .,JSC. All Rights Reserved.</copyright>
+	<license>license GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<description>	
+	<![CDATA[
+<p>The <strong>Joomlart T3 Framework</strong>  and <strong>TZ Restaurant Template</strong> have been updated for Joomla 2.5.</p>
+
+ </br>
+
+<p><strong>Resources :</strong></p>
+
+<p>
+<a href='http://demo.templaza.com/' title='Demo' target='_blank' > Demo</a> |
+<a href='http://www.templaza.com/Forum/' title='forum' target='_blank' >Forum</a> |
+<a href='http://wiki.templaza.com/Main_Page' title='wiki' target='_blank' >Wiki</a> |
+<a href='http://www.templaza.com/' title='Downloads' target='_blank' >Downloads</a> </p>
+		]]>
+	
+	</description>
+	<engine>t3</engine>
+	<files>
+		<filename>component.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>info.xml</filename>
+		<filename>params.ini</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>language</folder>
+		<folder>etc</folder>
+		<folder>themes</folder>
+		<folder>css</folder>
+		<folder>images</folder>
+		<folder>info</folder>
+		<folder>blocks</folder>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_tz_restaurant.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_tz_restaurant.sys.ini</language>
+	</languages>
+
+	<positions>
+		<position>hornav</position>
+		<position>breadcrumbs</position>
+		<position>search</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>user1</position>
+		<position>user2</position>
+		<position>user3</position>
+		<position>user4</position>
+		<position>user5</position>
+		<position>user6</position>
+		<position>user7</position>
+		<position>user8</position>
+		<position>user9</position>
+		<position>user10</position>
+		<position>user11</position>
+		<position>footer</position>
+		<position>syndicate</position>
+		<position>debug</position>
+		<position>mega1</position>
+		<position>mega2</position>
+		<position>top-panel</position>
+		<position>banner</position>
+		<position>left</position>
+		<position>right</position>
+        <position>contact</position>
+        <position>content-top</position>
+		<position>content-bottom</position>
+		<position>bott-content1</position>
+		<position>bott-content2</position>
+		<position>bott-content3</position>
+		<position>bott-content4</position>
+		<position>sticker1</position>
+		<position>sticker2</position>
+		<position>sticker3</position>
+		<position>sticker4</position>
+		<position>sticker5</position>
+		<position>sticker6</position>
+		<position>sticker7</position>
+		<position>sticker8</position>
+		<position>footnav</position>
+	</positions>
+
+	<config>
+		<fields name="params" addfieldpath="/plugins/system/jat3/jat3/core/element">
+            <field name="tz_option_background" type="media" label="TZ_BACKGROUND"/>
+		</fields>
+
+    </config>
+</extension>

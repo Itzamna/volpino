@@ -1,0 +1,97 @@
+
+
+@font-face {
+    font-family: 'PatuaOneRegular';
+    src: url('fonts/PatuaOne-Regular-webfont.eot');
+    src: url('fonts/PatuaOne-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/PatuaOne-Regular-webfont.woff') format('woff'),
+    url('fonts/PatuaOne-Regular-webfont.ttf') format('truetype'),
+    url('fonts/PatuaOne-Regular-webfont.svg#PatuaOneRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+html {
+	height: 100%;
+	margin-bottom: 1px;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+    font-family: 'PatuaOneRegular';
+	font-weight: normal;
+	font-size: 12px;
+    background: url("../images/bg-body.jpg") repeat scroll 0 0 transparent;
+}
+
+.error {
+	margin-left: auto;
+	margin-right: auto;
+    max-width: 1310px;
+    width: 100%;
+    background: url("../images/bg-wrapper.png") left top #F1EBDB no-repeat;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.7);
+    height:100%;
+}
+
+table, td, th, div, pre, blockquote, ul, ol, dl, address,.componentheading,.contentheading,.contentpagetitle,.sectiontableheader,.newsfeedheading {
+	font-family: helvetica, arial, sans-serif;
+	font-weight: normal;
+}
+
+#outline {
+  margin: 0 auto;
+  width: 569px;
+  height: 100%;
+  position: relative;
+}
+
+#error-mask {
+
+}
+
+.error .bug-code {
+	color: #784c12;
+	width: 569px;
+	text-align: center;
+	font-size: 100px;
+
+    font-family: 'PatuaOneRegular';
+}
+
+.error .bug-content {
+
+}
+
+#errorboxheader {
+	font-size: 2em;
+	text-shadow: 0 0 1px rgba(0,0,0,.1);
+	color: #353637;
+	font-weight: normal;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	display: block;
+	text-align: center;
+}
+
+.error ul.back-to-homepage {
+	padding: 0;
+}
+
+.error ul.back-to-homepage li {
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+}
+.error ul.back-to-homepage li a{
+    font-size: 18px;
+    color: #784c12;
+    font-family: 'PatuaOneRegular';
+}
+#errorboxbody{
+    padding-top: 40%;
+}

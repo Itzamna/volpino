@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    {% include head.html %}  
+
+    {% include js.html %}         
+  <script src="../public/thickbox/js/thickbox.js" type="text/javascript"></script>                                                        
+  <link rel="stylesheet" href="../public/thickbox/css/thickbox.css" type="text/css">                                                                     
+</head>
+<body id="bd" class="bd fs3 com_content">
+  <a name="Top" id="Top"></a>
+  <div id="ja-wrapper">
+    <div id="ja-mainnav" class="wrap ">
+      <div class="main">
+        <div class="main-inner1 clearfix">
+          <div class="ja-megamenu clearfix" id="ja-megamenu">
+            <ul class="megamenu level0"><li  class="mega first"><a href="/"  class="mega first" id="menu200" title="Питомник FCI-РКФ Эль Дольче Амико (Милый Друг). Свидетельство о регистрации № 14118"><span class="menu-title">Питомник FCI-РКФ "Эль Дольче Амико" (Милый Друг). Свидетельство о регистрации № 14118</span></a></li></ul>
+          </div>            
+        </div>
+      </div>
+    </div>
+    <div id="ja-header" class="wrap ">
+      <div class="main">
+        <div class="main-inner1 clearfix">
+          <div id="left-banner">&nbsp; </div>  
+            <div id="tz-banner">
+              <div class="custom"  >
+                <p><img src="../public/images/banner-web.png" alt="banner-web" /></p>
+              </div>
+            </div> 
+          <h1 class="logo">
+            <a href="/" title="Питомник вольпино итальяно ЭЛЬ ДОЛЬЧЕ АМИКО"> </a>
+          </h1>
+          <a id="totop" name="totop">&nbsp;</a>
+
+  
+            <div id="ja-search">
+              <img src='../public/images/right-header.png' style="margin-top:110px; margin-right:50px;" height="220px" >
+            </div>             
+          </div>
+        </div>
+      </div>
+    
+      <!-- MAIN CONTAINER -->
+      <div id="ja-container" class="wrap ja-l1">
+        <div class="main">
+          <div class="main-inner1 clearfix">
+            <div id="ja-mainbody" style="width:100%">
+              
+              <!-- CONTENT -->
+              <div id="ja-main" style="width:76%">
+                <div class="inner clearfix">
+                  <div id="system-message-container"></div>
+                  <div id="ja-content-mass-top" class="ja-mass ja-mass-top clearfix">
+                    <div class="ja-moduletable moduletable_welcome  clearfix" id="Mod93">
+                      <div class="ja-box-ct clearfix">
+                        <div class="custom_welcome"  >
+                          <h1><span style="font-size: 14pt;">{{ page.title }}</span></h1>
+                          {{ content }}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- //CONTENT -->
+              
+              <!-- LEFT COLUMN-->
+              <div id="ja-left" class="column sidebar" style="width:24%">
+                <div class="ja-colswrap clearfix ja-l1">
+                  <div id="ja-left1" class="ja-col  column" style="width:100%">
+                    <div class="ja-moduletable moduletable_menu  clearfix" id="Mod92">
+                      <div class="ja-box-ct clearfix">
+                        {% include menu.html %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- //LEFT COLUMN-->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //MAIN CONTAINER -->
+
+      <div id="ja-footer" class="wrap ">
+        <div class="main">
+          <div class="main-inner1 clearfix">
+            <div class="ja-copyright">
+                <div class="art-Footer">
+                  <div class="art-Footer-inner">
+                    <div class="art-Footer-text">
+                      <p style="text-align: center;">Copyright © 2013-2016 - <a href="http://volpino.ru/">Питомник ЭЛЬ ДОЛЬЧЕ АМИКО </a> - Все права защищены. <br /> Наши координаты:+7-916-555-39-74, e-mail:  Elena-Klitina@yandex.ru</p>
+                      <p style="text-align: center;">&nbsp;</p>
+                    </div>
+                    <noscript>&nbsp;</noscript>
+                  </div>
+                </div>
+              </div>
+            {% include counters.html %} 
+          </div>
+        </div>
+    </div>
+  </div>
+</body>

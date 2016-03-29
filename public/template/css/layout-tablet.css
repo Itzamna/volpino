@@ -1,0 +1,302 @@
+/*
+ * ------------------------------------------------------------------------
+ * JA Puresite Template J25
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - Copyrighted Commercial Software
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites:  http://www.joomlart.com -  http://www.joomlancers.com
+ * This file may not be redistributed in whole or significant part.
+ * ------------------------------------------------------------------------
+*/
+
+body {
+  -webkit-text-size-adjust: 100%; /*Fix Mobile Safari Font Scale*/
+}
+
+/* RESPONSIVE FONT SIZES
+--------------------------------------------------------- */
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+
+
+.main .main-inner1 {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#ja-content { width: 100%;  margin: 10px 0px 0px 0px; }
+
+#ja-mainbody,
+.ja-l1 #ja-main { }
+
+#ja-container .main .main-inner1 { margin: 0 -10px; }
+
+.ja-content-main {   }
+
+/* MASONRY PRESETS (240px*5 Grids)
+--------------------------------------------------------- */
+/* Main Content */
+.ja-frontpage #ja-content {
+  float: none;
+  width: 100%; /* Frontpage Content 3 grids */
+}
+
+/* full 5 grids content */
+body.content-grid-mass #ja-content,
+body.content-grid-mass.ja-frontpage #ja-content{
+  width: 100% !important;
+}
+
+/* 4 grids content */
+body.content-grid-quadruple #ja-content,
+body.content-grid-quadruple.ja-frontpage #ja-content {
+  width: 100% !important;
+}
+
+/* 3 grids content */
+body.content-grid-tripple #ja-content,
+body.content-grid-tripple.ja-frontpage #ja-content {
+  width: 100% !important;
+}
+
+/* CONTENT'S GRIDS
+--------------------------------------------------------- */
+.items-row {}
+
+.items-row .item .contentpaneopen {}
+
+.item {
+  padding: 0;
+}
+
+.cols-1 .item {
+  float: none;
+  width: 100% !important;
+}
+
+.cols-2 .item,
+.cols-3 .item,
+.cols-4 .item,
+.cols-5 .item {}
+
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header {
+}
+
+#ja-header .main {
+  width: 100%;
+  text-align: left;
+}
+
+#ja-header .main-inner1 {}
+
+h1.logo {
+  width: 218px;
+}
+
+
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+
+#ja-topsl .ja-box-left,
+#ja-topsl1 .ja-box-left,
+#ja-topsl2 .ja-box-left { width: 100% !important; float: none; }
+
+#ja-topsl .ja-box-left .ja-box-ct .no-tablet > p,
+#ja-topsl1 .ja-box-left .ja-box-ct .no-tablet > p,
+#ja-topsl2 .ja-box-left .ja-box-ct .no-tablet > p { display: none; }
+
+#ja-topsl .ja-box-left + .ja-box { clear: both; }
+
+#ja-topsl .ja-box-left + .ja-box { clear: both; }
+#ja-topsl .ja-box + .ja-box { width: 33% !important; }
+
+#ja-topsl1 .ja-box-left + .ja-box,
+#ja-topsl2 .ja-box-left + .ja-box { clear: both; position: static; width: 100% !important; float: none; }
+
+#ja-topsl .ja-box-left + .ja-box-right,
+#ja-topsl1 .ja-box-left + .ja-box-right,
+#ja-topsl2 .ja-box-left + .ja-box-right { position: static; }
+
+#ja-botsl1 .ja-box.ja-box-left {
+	/*width: 75% !important;*/
+}
+
+#ja-botsl1 .ja-box.ja-box-right {
+	/*width: 100% !important;*/
+	/*border-top: solid 1px #222;*/
+}
+
+#ja-topsl .ja-box,
+#ja-topsl1 .ja-box,
+#ja-topsl2 .ja-box  {
+	min-height: 0 !important;
+}
+#ja-botsl2 .ja-box-right{
+    position: relative;
+}
+
+/* FOOTER
+--------------------------------------------------------- */
+#ja-footer {
+}
+div#ja-footer .ja-footnav ul li{
+    padding-left: 16px;
+}
+/* MODULES
+--------------------------------------------------------- */
+#ja-main-wrap div.masonry-brick div.ja-moduletable-inner,
+#ja-main-wrap div.masonry-brick div.moduletable-inner,
+#ja-main-wrap div.masonry-brick div.ja-module-inner,
+#ja-main-wrap div.masonry-brick div.module-inner,
+#ja-extra-col div.masonry-brick div.module-inner {}
+
+/* Hiden in Tablet ---*/
+.hide-in-normal,
+.hide-in-tablet {
+  display: none;
+}
+
+/* MAIN NAVIGATION
+--------------------------------------------------------- */
+/* Main Nav ---*/
+
+
+/* Mega Menu Layout ---*/
+
+.ja-megamenu ul.level0 li.mega span.menu-desc {
+  display: none;
+}
+
+/* Menu Button --- */
+/* to use this value to detect responsive
+ * > 3: mean responsive
+ * 4: is mobile device, which the menu show only first level
+ */
+#ja-menu-button {
+  z-index: 3;
+}
+
+/* All Categories ---*/
+div.subCategoryContainer { width: 33% !important; }
+
+div.itemListSubCategories .clr { display: none; }
+
+div.subCategory { height: auto !important; }
+
+/* K2 Detail ---*/
+div.viewitemllink,
+div.itemAuthorBlock,
+div.itemAuthorLatest,
+div.itemRelated { width: 46%; }
+
+.itemListView #itemListSecondary,
+.tagItemList {
+	margin-bottom: -30px;
+}
+
+div.itemView {
+	margin-bottom: 10px;
+}
+#ja-search{
+    display:none;
+}
+div.contact{
+
+}
+div.tz_shadow_contact{
+    width: 55%;
+}
+#tz-flickr ul#tz-flick li img{
+
+}
+#tz-flickr ul#tz-flick li{
+    padding: 2px 1px;
+}
+div#ja-botsl2 .ja-moduletable{
+    padding:30px 15px 10px;
+}
+div.hits a.TzReadmore{
+    background-position: right center;
+}
+.TzBlog .TzArticleBlogInfo span.TzBlogCreatedby,
+div.TzArticleInfo span.TzCreatedby{
+    clear: both;
+    display:none ;
+}
+.TzBlog .TzArticleBlogInfo span.TZCommentCount{
+    float:left;
+}
+div.TzBlog .TzArticleBlogInfo{
+    padding-bottom: 12px;
+}
+
+#ja-botsl2 .ja-box{
+    width:50% !important;
+}
+.tz_portfolio_like_button span.add{
+    font-size: 0;
+}
+div#ja-footer .main, div#content #tz_options{
+    position: relative !important;
+}
+#tz_options .custom{
+    display: none !important;
+}
+.ja-megamenu ul.level0 > li.mega > a.mega{
+    margin-right: 20px;
+}
+div.moduletable_catering .ja-box-ct img{
+    margin-right: 8px;
+}
+div.moduletable_about h4{
+    padding-left: 65px;
+}
+.moduletable_about address{
+    display: block;
+    clear: both;
+}
+div.moduletable_about p span img {
+    margin: 5px 3px 0 4px;
+}
+.TzBlog .TzItem .TzBlogMedia{
+    float:none;
+    margin:0;
+}
+.TzBlog .TzItemsRow{
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+}
+div#ja-content-mass-top .ja-moduletable .flex-caption h3{
+    margin-bottom: 0;
+}
+.tz_flexslider .flex-caption{
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+div.tz_flexslider .flex-direction-nav{
+    top: 50px !important;
+    right: 60px !important;
+    display: none;
+}
+#tz-Guestbook-warp div#warp-fom{
+    left:15%;
+    width: 70%;
+}
+#ja-botsl2 .main .ja-box .ja-moduletable{
+    margin: 0 20px!important;
+}
+div.moduletable_special address{
+    font-size: 14px;
+}
+.moduletable_special .custom_special{
+    overflow: hidden;
+}
+div#ja-content-mass-top div.moduletable_thanks{
+    margin-bottom: 20px !important;
+}

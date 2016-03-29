@@ -1,0 +1,141 @@
+/**
+ * ------------------------------------------------------------------------
+ * JA T3v2 System Plugin
+ * ------------------------------------------------------------------------
+ * Copyright (C) 2004-2011 J.O.O.M Solutions Co., Ltd. All Rights Reserved.
+ * @license - GNU/GPL, http://www.gnu.org/licenses/gpl.html
+ * Author: J.O.O.M Solutions Co., Ltd
+ * Websites: http://www.joomlart.com - http://www.joomlancers.com
+ * ------------------------------------------------------------------------
+ */
+
+/* MAIN LAYOUT DIVS
+--------------------------------------------------------- */
+.wrap { width: 100%; clear: none; }
+.main { width: 100% !important; max-width: 1310px; margin: 0 auto; position: relative;}
+
+.column { overflow: hidden; float: left; }
+
+.ja-mass { clear: both; }
+
+/* Gutter ---*/
+.main .inner {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.main .main-inner1 {
+/* We use liquid layout, so we need to insert a div which will create margin if need */
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.column div.ja-moduletable, .column div.moduletable, .column div.ja-module, .column div.module { 
+/* for side columns and spotlight, we only need to add margin or padding to Module */
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.ja-inset2 div.ja-moduletable, .ja-inset2 .div.moduletable, .ja-inset2 div.ja-module, .ja-inset2 div.module {
+	margin-right: 0;
+	/*margin-left: 30px;*/
+}
+
+.ja-inset1 div.ja-moduletable, .ja-inset1 .div.moduletable, .ja-inset1 div.ja-module, .ja-inset1 div.module {
+	margin-right: 30px;
+	margin-left: 0;
+}
+
+.item .contentpaneopen {
+/* for article columns, we only need to add margin or padding to this div  */
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.items-leading { }
+
+.items-row {
+/* minus the spacing of the article row to macth with the Gutter & global grid */
+	margin-left: -15px;
+	margin-right: -15px; 
+}
+
+/* MAIN COLUMN
+--------------------------------------------------------- */
+#ja-mainbody { float: left; }
+#ja-current-content, #ja-main { float: right; }
+
+/* SIDE COLUMNS
+--------------------------------------------------------- */
+.ja-colswrap {}
+.ja-col {}
+
+/* Left Column ---*/
+#ja-left .ja-l2 .ja-left1, #ja-left .ja-l2 .ja-left2 { width: 50%; }
+#ja-left .ja-l1 .ja-col { width: 100%; }
+
+/* Right Column ---*/
+#ja-right { float: right; }
+#ja-right .ja-r2 .ja-right1, #ja-right .ja-r2 .ja-right2 { width: 50%; }
+#ja-right .ja-r1 .ja-col { width: 100%; }
+
+/* HEADER
+--------------------------------------------------------- */
+#ja-header { z-index: 20;}
+
+/* FOOTER
+--------------------------------------------------------- */
+#ja-footer { clear: both; }
+
+/* CONTENT'S GRIDS
+--------------------------------------------------------- */
+.item { float: left; position: relative; }
+
+.cols-1 .item { width: 100%; }
+.cols-2 .item { width: 50%; }
+.cols-3 .item { width: 33.33%; }
+.cols-4 .item { width: 25%; }
+.cols-5 .item { width: 20%; }
+
+/* SPOTLIGHT
+--------------------------------------------------------- */
+#ja-topsl {}
+#ja-botsl {}
+
+.ja-box { float: left; overflow: hidden; }
+.ja-box-right { position: absolute; right: 0; }
+
+.btn-custom {
+  border-top: 1px solid #6b4400;
+   background: #574018;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9c813e), to(#574018));
+   background: -webkit-linear-gradient(top, #9c813e, #574018);
+   background: -moz-linear-gradient(top, #9c813e, #574018);
+   background: -ms-linear-gradient(top, #9c813e, #574018);
+   background: -o-linear-gradient(top, #9c813e, #574018);
+   padding: 7px 14px;
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   text-shadow: rgba(0,0,0,.4) 0 1px 0;
+   color: #fffef0;
+   font-size: 15px;
+   text-decoration: none;
+   vertical-align: middle;
+  margin: 10px 0px;
+  display: block;
+  max-width: 240px;
+}
+.btn-custom:hover {
+   border-top-color: #786128;
+   background: #786128;
+   color: #fce4cf;
+   }
+.btn-custom:active {
+   border-top-color: #e3d5b3;
+   background: #e3d5b3;
+   }

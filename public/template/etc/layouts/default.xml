@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout name="desktop">
+	<!--Extra css load for this layout-->
+	<stylesheets>
+               <file media="all">css/template.css</file>
+                <file media="only screen and (max-width:479px)">css/layout-mobile-port.css</file>
+		<file media="only screen and (max-width:735px)">css/layout-mobile.css</file>
+                 <file media="only screen and (min-width:736px) and (max-width: 985px)">css/layout-tablet.css</file>
+	</stylesheets>
+	<scripts> 		 
+                <file>js/mega.rjd.js</file>
+		<content>jQuery.noConflict();</content>
+	</scripts>
+
+	<blocks name="top" style="xhtml">
+		<block name="absolute" type="modules" style="raw">absolute</block>
+		<block name="top-panel" type="modules" style="raw" main-inner="1">top-panel</block>
+		<block name="mainnav" type="mainnav" main-inner="1"></block>
+		<block name="header" type="header" main-inner="1"></block>
+
+		<block name="topsl1" main-inner="1" type="spotlight" special="left" specialwidth="70">sl1-l,sl1-r</block>
+		<block name="topsl3" main-inner="1" type="spotlight" special="left" specialwidth="70">sl1-l1,sl1-r1</block>
+		<block name="topsl" type="spotlight" main-inner="1">user1,user2,user3,user4,user5</block>	
+		<block name="topsl2" type="spotlight" main-inner="1">sticker1, sticker2, sticker3, sticker4</block>
+	</blocks>
+	<blocks name="middle" colwidth="19"  main-inner="1" >
+		<block name="content-mass-top">content-top</block> 
+    	       <block name="left1">left</block>
+		<block name="inset2" width="30"  >right</block>
+		<block name="content-mass-bottom">content-bottom</block>	
+
+	</blocks>
+	<blocks name="bottom" style="xhtml">
+		<block name="botsl1" type="spotlight" main-inner="1" specialwidth="24" special="left" >bott-content1,bott-content2</block>
+		<block name="botsl" type="spotlight" main-inner="1">user6,user7,user8,user9,user10</block>
+		<block name="botsl3" type="spotlight" main-inner="1" specialwidth="30" special="left"  >bott-content3,bott-content4</block>
+		<block name="botsl2" type="spotlight" main-inner="1">sticker5,sticker6,sticker7,sticker8</block>
+		<block name="footer" type="footer" main-inner="1"></block>
+	</blocks>
+</layout>
