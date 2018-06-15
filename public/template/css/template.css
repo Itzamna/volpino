@@ -61,7 +61,6 @@ p.readmore a { text-transform: uppercase; }
     font-weight: normal;
 }
 .custom_welcome h1{
-  font-weight: bold;
   line-height: 1.6;
   font-size: 1.6em;
  
@@ -2240,4 +2239,20 @@ div.jp-type-single{
 }
 .art-Footer-text a {
   color: #DCD0AD;
+}
+img.gray-photo {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray; /* IE 6-9 */
+}
+img.gray-photo:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none; /* IE 6-9 */
 }
