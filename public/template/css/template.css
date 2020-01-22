@@ -2256,3 +2256,13 @@ img.gray-photo:hover {
   filter: none;
   filter: none; /* IE 6-9 */
 }
+
+a.link {
+  font-weight: bold;
+  text-decoration: underline;
+}
+a.link:hover {
+  font-weight: bold;
+  text-decoration: underline;
+  color: #b1800f;
+}
